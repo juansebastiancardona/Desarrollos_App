@@ -1,0 +1,160 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-size: 13px;
+}
+header{
+    width: 100%;
+    height: 60px ;
+}
+header nav{
+    display: flex;
+    justify-content: flex-end;
+}
+header nav .nav{
+    width: 250px;
+    height: auto ;
+    display: flex;
+    list-style: none;
+    justify-content: center;
+    align-items: center;
+   
+   
+}
+
+.a{
+    margin-right:10px ;
+    color: #000000;
+    text-decoration: none;
+    cursor: pointer;
+   
+}
+.menu-icono{
+
+   background-repeat: no-repeat;
+   background-position: center;
+   background-size: auto;
+ width: 15px;
+ height: 15px;
+ margin-right: 10px;
+  
+
+}
+.perfil{
+    border-radius: 50%;
+    margin-left: 10px;
+    width: 30px;
+    height: 30px;
+
+}
+main{
+    margin-top: 150px;
+    text-align: center;
+}
+.main_logo{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+.logo_google{
+   width: 300px; 
+}
+.main_input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px; 
+}
+.contenedor_input{
+    width: 525px;
+    border-radius: 100px;
+    border: 1px  solid #dfe1e5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor_input:hover{
+    box-shadow: 0 1px 6px 0 #20212447 ;
+    border-color:#dfe1e500 ;
+
+}
+.input{
+    width: 450px;
+    height: 40px;
+    border: none;
+    outline: none;
+}
+.icono-busqueda{
+   
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+
+
+}
+.microfono{
+  
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+    cursor :pointer 
+}
+.main_botones{
+    width: 530px;
+    margin: 0 auto;
+}
+.main_botones div{
+    display: inline-block;
+}
+.main_botones button{
+    height: 36px;
+    background-color:#f2f2f2 ;
+    border: none;
+    font-size: 14px;
+    color: #5f6368;
+    border-radius: 5px;
+    padding: 0 15px;
+    margin-right: 15px;
+
+
+}
+.main_botones button:hover{
+    border: 1px solid #c6c6c6;
+    box-shadow: 0 1px 1px #000001;
+    color: #222 ;
+}
+.footer{
+    width: 100%;
+    height: 50px;
+    position: absolute;
+    bottom: 0;
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: center;
+    font-size: 13px;
+    background-color: #f2f2f2;
+    border-top: 1px solid #e4e4e4;
+}
+footer ul{
+    margin: 10px;
+    list-style: none;
+    display: flex;
+    padding-left: 0;
+}
+.footer_izquierda{
+    justify-self: left;
+
+}
+.footer_derecha{
+    justify-self: right;
+
+}
+footer ul li a{
+    margin: 10px;
+    color:#5f6368 ;
+}
+
+
