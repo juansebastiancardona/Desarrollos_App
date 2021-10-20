@@ -1,0 +1,707 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+header{
+    width: 100%;
+    height: 360px;
+   /* background:linear-gradient(#ff8000,blue);*/
+    background: linear-gradient(207.8deg, #ff8000 16.69%,blue 100%);
+    padding-top: 10px;
+}
+.header__contenedor--logo{
+    width: 90%;
+    height: auto;
+ /* background-color: antiquewhite; */
+    margin: 0 auto;
+    margin-top: 60px;
+    text-align: center;
+   
+   
+    
+}
+.header__contenedor--logo img{
+    width: 110px;
+    height: 110px;
+    margin-left: 0;
+    border-radius: 55px;
+   
+}
+.header__contenedor--logo h1 {
+    
+    font-size: 30px;
+    line-height: 5.8rem;
+    color:white;
+    font-weight: bold;
+}
+
+.header__contenedor--lema{
+    width: 90%;
+    
+    margin: 0 auto;
+    text-align: center;
+   
+}
+.header__contenedor--lema h2{
+    line-height: 5.5rem;
+    margin-left: -5px;
+    color: aliceblue;
+    font-size: 2.0rem;
+    font-weight: 600;
+
+}
+.header__contenedor--lema p{
+    color: aliceblue;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height:2.5rem;
+}
+/*MAIN*/
+main{
+    display: block;
+    width: 100%;
+    height: auto;
+    background-color:#FAF8F7 ;
+}
+.contenedor__tabla--descuento{
+    width: 90%;
+    height: auto;
+    text-align: center;
+    
+    margin: 0 auto;
+  
+}
+/*.tabla__descuento--titulo{
+   
+}
+*/
+.tabla__descuento--titulo h2{
+    font-size: 2.8rem;
+    font-weight: 600;
+    margin-top: 35px;
+    margin-bottom: 15px;
+    color: black;
+    
+}
+.tabla__descuento--titulo p{
+    font-size: 1.5rem;
+    color: black;
+    font-weight: 500;
+    margin-top: 30px;
+}
+.tabla__descuento--tabla{
+    width: 90%;
+    height: auto;
+    margin: 25px auto;
+  /*  background-color: chartreuse;*/
+    justify-content: center;
+    padding-top: 25px;
+    
+}
+
+/*tabla martes*/
+.tabla--martes{
+   display: block;
+   justify-content: center;
+   margin-bottom: 25px;
+
+}
+.tabla--martes p{
+    font-size: 1.9rem;
+    font-weight: 900;
+    line-height: 3.5rem;
+    margin:0  auto;
+    margin-left: -75px;
+    color:orange;
+    
+}
+.tabla--martes table{
+    width: 90%;
+    margin: 0 auto;
+    border-radius: 18px;
+    
+}
+
+.tabla--martes td{
+    width: 50%;
+    height: 60px;
+    font-size: 1.5rem;
+    font-weight: 500;
+    line-height: 4.2rem;
+    color: grey;
+    background-color: white;
+    border-radius: 5px;
+  
+}
+.tablauno--descripcion{
+    width: 80%;
+    margin: 0 auto;
+    margin-top: 15px;
+    padding-left: 15px;
+    padding-right: 15px;
+    border-radius: 5px;
+    background: linear-gradient(207.8deg, #ff8000 16.69%,blue 100%);
+}
+.tablauno--descripcion p{
+
+    font-size: 1.3rem;
+    line-height: 3.0rem;
+    color: #FAF8F7;
+    margin: 0 auto;
+}
+
+/*MIERCOLES*/
+.tabla--miercole{
+    display: block;
+    justify-content: center;
+    margin-bottom: 25px;
+ 
+ }
+ .tabla--miercole p{
+     font-size: 1.9rem;
+     font-weight: 900;
+     line-height: 3.5rem;
+     margin:0  auto;
+     margin-left: -55px;
+     color:blue;
+     
+ }
+ .tabla--miercole table{
+     width: 90%;
+     margin: 0 auto;
+     border-radius: 18px;
+     
+ }
+ 
+ .tabla--miercole td{
+     width: 50%;
+     height: 60px;
+     font-size: 1.5rem;
+     font-weight: 500;
+     line-height: 4.2rem;
+     color: grey;
+     background-color: white;
+     border-radius: 5px;
+   
+ }
+ .tablados--descripcion{
+     width: 80%;
+     margin: 0 auto;
+     margin-top: 15px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 5px;
+     background: linear-gradient(207.8deg, #ff8000 16.69%,blue 100%);
+ }
+ .tablados--descripcion p{
+ 
+     font-size: 1.3rem;
+     line-height: 3.0rem;
+     color: #FAF8F7;
+     margin: 0 auto;
+ }
+ /*JUEVES*/
+ .tabla--jueve{
+    display: block;
+    justify-content: center;
+ 
+ }
+ .tabla--jueve p{
+     font-size: 1.9rem;
+     font-weight: 900;
+     line-height: 3.5rem;
+     margin:0  auto;
+     margin-left: -10px;
+     color:orange;
+     
+ }
+ .tabla--jueve table{
+     width: 90%;
+     margin: 0 auto;
+     border-radius: 18px;
+     
+ }
+ 
+ .tabla--jueve td{
+     width: 50%;
+     height: 60px;
+     font-size: 1.5rem;
+     font-weight: 500;
+     line-height: 4.2rem;
+     color: grey;
+     background-color: white;
+     border-radius: 5px;
+   
+ }
+ .tablatres--descripcion{
+     width: 80%;
+     margin: 0 auto;
+     margin-top: 15px;
+     padding-left: 15px;
+     padding-right: 15px;
+     border-radius: 5px;
+     background: linear-gradient(207.8deg, #ff8000 16.69%,blue 100%);
+ }
+ .tablatres--descripcion p{
+
+     font-size: 1.3rem;
+     line-height: 3.0rem;
+     color:#FAF8F7;
+     margin: 0 auto;
+ }
+
+ /*CONTENEDOR PAGOS Y SERVICIOS*/
+ 
+ .contenedor__pagos--servicios{
+    
+     width: 100%;
+     height: auto;
+     padding-top: 15px;
+     padding-bottom: 10px;
+     background-color: #201E1C;
+     text-align: center;
+ }
+ .pagos__servicios--titulo{
+    width: 80%;
+    height: auto;
+    margin: 0 auto; 
+    margin: top 4px 5px;
+  /*  background-color: #753414;*/
+    padding-top: 10px ;
+    padding-bottom:10px ;
+    
+ }
+ .pagos__servicios--titulo h2{
+     font-size: 2.8rem;
+     line-height: 5.5rem;
+     color: #FAF8F7;
+ }
+ .pagos__servicios--titulo p{
+     font-size: 1.7rem;
+     color: #FAF8F7;
+ }
+
+ /*tarjeta bancolombia*/
+ .contenedor__bancolombia--tarjeta{
+     width: 90%;
+     height: 160px;
+     margin: 25px auto;
+     background-color: #282623;
+     border-radius: 8px;
+     box-shadow: 0 7px 20px rgba(243, 220, 12, 0.815);
+ }
+ .bancolombia__tarjeta--logo{
+    display: inline-block;
+    width: 190px;
+    height: 65px;
+    margin-left: -60px;
+    margin-top: 15px;
+    margin-bottom:10px;
+    background-image: url('/iconos/bc2.svg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+ }
+ .bancolombia__tarjeta--titulo{
+     font-size: 2.0rem;
+     font-weight: 900;
+     margin-left: -30px;
+     color: #FAF8F7;
+ }
+ .bancolombia__tarjeta--subtitulo{
+     font-size: 1.4rem;
+     font-weight: 500;
+     line-height: 3.5rem;
+     margin-left:-75px;
+     color: #FAF8F7;
+ }
+ /*tarjeta davivienda*/
+ .contenedor__davivienda--tarjeta{
+    width: 90%;
+    height: 160px;
+    margin: 25px auto;
+    background-color: #282623;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(233, 9, 9, 0.932);
+}
+.davivienda__tarjeta--logo{
+   display: inline-block;
+   width: 210px;
+   height: 70px;
+   margin-left: -155px;
+   margin-top: 15px;
+   margin-bottom:10px;
+   background-image: url('/iconos/davivienda2.svg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.davivienda__tarjeta--titulo{
+    font-size: 2.0rem;
+    font-weight: 900;
+    margin-left: -40px;
+    color: #FAF8F7;
+}
+.davivienda__tarjeta--subtitulo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.0rem;
+    margin-left:-75px;
+    color: #FAF8F7;
+}
+/*Tarjeta baloto*/
+.contenedor__baloto--tarjeta{
+    width: 90%;
+    height: 160px;
+    margin: 25px auto;
+    background-color: #282623;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(233, 9, 9, 0.932);
+}
+.baloto__tarjeta--logo{
+   display: inline-block;
+   width: 210px;
+   height: 70px;
+   margin-left: -85px;
+   margin-top: 15px;
+   margin-bottom:10px;
+   background-image: url('/iconos/baloto.svg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.baloto__tarjeta--titulo{
+    font-size: 2.0rem;
+    font-weight: 900;
+    margin-left: -150px;
+    color: #FAF8F7;
+}
+.baloto__tarjeta--subtitulo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.0rem;
+    margin-left:-85px;
+    color: #FAF8F7;
+}
+/*tarjeta confa*/
+
+.contenedor__confa--tarjeta{
+    width: 90%;
+    height: 160px;
+    margin: 25px auto;
+    background-color: #282623;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(233, 226, 226, 0.932);
+}
+.confa__tarjeta--logo{
+   display: inline-block;
+   width: 200px;
+   height: 60px;
+   border-radius: 5px;
+   margin-left: -65px;
+   margin-top: 15px;
+   margin-bottom:10px;
+   background-image: url('/iconos/cfa.svg');
+   background-size: cover;
+   background-position: center;
+   background-repeat: no-repeat;
+}
+.confa__tarjeta--titulo{
+    font-size: 2.0rem;
+    font-weight: 900;
+    margin-left: -150px;
+    color: #FAF8F7;
+}
+.confa__tarjeta--subtitulo{
+    font-size: 1.4rem;
+    font-weight: 500;
+    line-height: 3.0rem;
+    margin-left:-75px;
+    color: #FAF8F7;
+}
+/*CONTENEDOR  SEDES */ 
+ 
+.contenedor__sede--milpa{
+    width: 100%;
+    height: auto;
+    padding-top: 15px;
+    background-color:#FAF8F7 ;
+  
+}
+.sede__milpa--titulo{
+    width: 90%;
+    height: 70px;
+    margin: 0 auto;
+    padding-top: 25px;
+    text-align: center;
+   
+}
+.milpa--titulo{
+    font-size: 2.6rem;
+    font-weight: 900;
+  
+}
+
+/*imagenes sedes*/
+.sede__milpa--galeria{
+    width: 90%;
+    height: auto;
+    margin: 10px 30px;
+    
+}
+.milpa__galeria--titulo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.milpa__galeria--direccion{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.milpa__galeria--imagen{
+    width: 90%;
+    height: 360px;
+    border-radius: 5px;
+    background-image: url('/imagenes/4m.jpg');
+}
+
+/*SUPERMILPAS*/
+.sede__milpa--estacion{
+    width: 90%;
+    height: auto;
+    margin: 35px 30px;
+    
+}
+.milpa__estacion--titulo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.milpa__estacion--direccion{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.milpa__estacion--imagen{
+    width: 90%;
+    height: 360px;
+    border-radius: 5px;
+    background-image: url('/imagenes/4m.jpg');
+}
+/*express*/
+.sede__milpa--express{
+    width: 90%;
+    height: auto;
+    margin: 35px 30px;
+    
+}
+.milpa__express--titulo{
+    font-size: 1.5rem;
+    font-weight: 800;
+    margin-bottom: 8px;
+}
+.milpa__express--direccion{
+    font-size: 1.2rem;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.milpa__express--imagen{
+    width: 90%;
+    height: 360px;
+    border-radius: 5px;
+    background-image: url('/imagenes/4m.jpg');
+}
+
+
+/*Seccion de mercados economicos*/
+.contenedor__mercado--economico{
+    width: 100%;
+    height: auto;
+    background-color:#FAF8F7 ;
+    padding-top: 25px;
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+.mercado__economico--titulo{
+    width: 80%;
+    height: auto;
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 5px;
+  
+
+
+}
+.mercado__economico--titulo h2{
+    font-size: 2.5rem;
+    font-weight: 800;
+    line-height: 4.5rem;
+}
+.mercado__economico--titulo p{
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+/*slider*/
+.mercado__economico--slider{
+    display: flex;
+    
+    background-color:#FAF8F7 ;
+    height: 330px;
+    /*lineas de coidigo para el scroll horizontal*/
+    overflow-x: scroll;
+    overscroll-behavior-x: contain;
+    scroll-snap-type: x proximity;
+
+  
+   
+  
+}
+.mercado__pequenio{
+    position: relative;
+    scroll-snap-align: center;
+    width: 60%;
+    min-width: 230px;
+    max-width: 300px;
+    height: 250px;
+    margin: 50px 20px 0;
+    padding-bottom: 35px;
+    margin-bottom: 35px;
+    
+   
+    padding: 0 15px;
+    background-color: antiquewhite;
+    border-radius: 15px;
+    box-shadow: 0 4px 8px rgba(89,73,30, 0.16); 
+  
+}
+.titulouno{
+    position: absolute;
+    font-weight: bold;
+    width: 130px;
+    height: 25px;
+    text-align: center;
+    left: 22%;
+    top: -10px;
+    font-size: 1.8rem;
+    border-radius: 4px;  
+    background: linear-gradient(207.8deg, #ff8000 16.69%,blue 100%);
+    
+}
+.mercado__pequenio--informacion{
+    width: 90%;
+   height: auto;
+   text-align: center;
+    margin-left: 10px;
+    margin-top: 35px;
+    margin-right: 15px;
+ 
+}
+.pequenio__informacion--titulo{
+    font-size: 1.8rem;
+    line-height: 4.0rem;
+      
+}
+
+.pequenio__informacion--precio{
+    font-size:4.5rem ;
+    font-weight: 600;
+    line-height: 8.0rem
+  
+}
+.pequenio__informacion--precio span{
+    font-size: 1.5rem;
+    font-weight: 400;
+    vertical-align: 18px;
+}
+.pequenio__informacion--ahorro{
+    font-size: 1.5rem;
+   
+}
+.pequenio__informacion--boton{
+    font-size: 1.5rem;
+    font-weight: 600;
+    height: 25px;
+    margin-top: 15px;
+    padding-left: 25px;
+    padding-top: 2px;
+    
+    padding-right: 25px;
+    border-radius: 5px;
+    border: 2px solid orange;
+}
+footer{
+    display: flex;
+    width: 100%;
+    height: 200px;
+    padding-top: 25px;
+    color:#FAF8F7;
+    background: linear-gradient(207.8deg, #ff8000 16.69%,blue 100%);
+    justify-content: space-between;
+}
+/*izquierdo*/
+.contenedor__izquierdo--redes{
+    margin: 0 auto;
+    width: 55px;
+   
+}
+.contenedor__izquierdo--redes ul{
+    list-style: none;
+    font-size: 1.3rem;
+    line-height: 3.0rem;
+
+}
+/*centro*/
+.contenedor__centro--informacion{
+    margin-top: -5px;
+    margin-right: 45px;
+   
+    
+
+}
+.contenedor__centro--informacion div{
+   
+    margin: 10px auto;
+    line-height: 2.0rem;
+}
+.contenedor__centro--informacion h3{
+    font-size: 1.4rem;
+}
+.contenedor__centro--informacion p{
+    font-size: 1.1rem;
+}
+
+/*derecho*/
+.contendor__derecho--logo{
+    margin: 0 auto;
+}
+
+.contendor__derecho--logo{
+    margin: 0 auto;
+}
+.contenedor__derecho--logo img{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 25px;
+    margin-top: 25px;
+
+}
+
+
+   
+    
+
+
+
+
+
+
+
+
+
