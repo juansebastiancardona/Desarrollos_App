@@ -5,7 +5,7 @@
 }
 html{
     font-size: 62.5%;
-    font-family:"" Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif,sans-serif; 
+    font-family:" Proxima Nova",-apple-system,"Helvetica Neue",Helvetica,Roboto,Arial,sans-serif,sans-serif; 
 }
 :root{
     --fondo:#fff159;
@@ -13,6 +13,7 @@ html{
     --fondo2 : #ebebeb;
     --fondo3: #fff;
     --letraverde: #00a650;
+    --letrapequeazul:#34a5fc;
     --letrazul :#3495fb;
     --letragris: #c4a6a6;
 }
@@ -200,6 +201,7 @@ html{
 
     height: auto;
     background-color:var(--fondo2);
+    padding-bottom: 20px;
 }
 /*seccion de presentacion imagenes*/
 .presentacion {
@@ -212,43 +214,145 @@ html{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 165spx;
+    height: 165px;
 }
 /*seccion de medios de pago*/
 .pagos{
   
     display: grid;
-     grid-template-columns: repeat(5, 1fr );
+    grid-template-columns: repeat(5, 1fr );
     margin: 0 auto;
     margin-top: 20px;
     background-color:rgb(99, 59, 8);
     width: 600px;
-
+    height: 45px;
 }
+.pagos a{
+    text-decoration: none;
+    font-size: 0.7rem;
+    color: var(--letrapequeazul) ;
+}
+.pagos p{
+    font-size: 0.85rem;
+   /* letter-spacing: 0.04rem;*/
+    font-weight: 100;
+}
+
 .pagos--cuotas{
+    display: flex;
     width: 130px;
-    background-color: aqua;
+    background-color:var(--fondo3);
     grid-column-start:1 ;
     grid-column-end:1 ;
 }
+.pagos--cuotas .tarjeta {
+    background-image: url(/iconos/tarjeta.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 15px;
+    margin-top: auto;
+    margin-right:-20px;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.pagos--cuotas .titulo{
+
+    display: block;
+    margin: auto auto;
+   
+}
+
+
+
+
+
+
 .pagos--transferencia{
+    display: flex;
     width: 200px;
-    background-color: rgb(225, 233, 236);
+    background-color: var(--fondo3); 
     grid-column-start:2 ;
     grid-column-end:3;
 }
+.pagos--transferencia .tarjeta-banco{
+    background-image: url(/iconos/banco.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+    margin:auto auto;
+    margin-top: auto;
+    margin-right:-20px;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.pagos--transferencia .titulo-banco{
+    display: block;
+   
+    margin: auto auto;
+     
+}
+
+
+
 .pagos--efectivo{
+    display: flex;
     width:130px;
-    background-color: rgb(102, 255, 0);
+    background-color: var(--fondo3);
     grid-column-start:4 ;
     grid-column-end:4;
 }
+.pagos--efectivo .tarjeta-efectivo{
+    background-image: url(/iconos/efectivo.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 15px;
+    margin:auto auto;
+    margin-top: auto;
+    margin-right:-20px;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.pagos--efectivo .titulo-efectivo{
+    display: block;
+   
+    margin: auto auto;
+}
+
+
+
+
 .pagos--mas{
+    display: flex;
     width:140px;
-    background-color: rgb(255, 0, 76);
+    background-color:var(--fondo3);
     grid-column-start:5 ;
     grid-column-end:5;
 }
+.pagos--mas .tarjeta-mas{
+    background-image: url(/iconos/signomas.PNG);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 15px;
+    margin:auto auto;
+    margin-top: auto;
+    margin-right:-20px;
+    margin-bottom: auto;
+    margin-left: 10px;
+}
+.pagos--mas .titulo-mas{
+    display: block;
+  
+    margin: auto auto;
+}
+
 
 
 
