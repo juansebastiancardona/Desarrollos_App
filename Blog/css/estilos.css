@@ -98,3 +98,48 @@ html{
   
     
 }
+/*MAIN*/
+.main{
+    width: 100%;
+    height: auto;
+    
+    
+}
+.main--logo{  
+   width: 100%;
+   height: 190px;
+   
+    
+}
+.main--logo-imagen{
+   
+}
+.main--logo-imagen img{
+    width: 100%;
+    position: relative;
+    height: 280px;
+   opacity: 0.4;
+ 
+}
+.main--logo-titulo{
+   
+    width: 190px;
+    position: absolute;
+    margin-top: -150px;
+    background-color: red;
+}
+.main--logo-titulo .foto{
+    background-image: url(/assets/imagenes/perfil3.jpg);
+    background-position:left;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 80px;
+    height: 80px;
+ 
+}
+.main--logo-titulo .foto{
+   
+   border-radius: 50%;
+}
+
+
