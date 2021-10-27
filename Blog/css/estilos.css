@@ -10,8 +10,8 @@ html{
 
 }
 :root{
-    --fondo1 : #121f3d;
-    --fondo2: #3498DB ;
+    --fondo1 : #454545;
+    --fondo2: #3b8098 ;
     --letrablanca:#eff3f8;
     --letraazul1: #33b1ff;
     --verde: #96c73f;
@@ -19,7 +19,10 @@ html{
 .header{
     width: 100%;
     height: 80px;
-    background-color:var(--fondo2);
+  /*  background-color:var(--fondo1);*/
+    background-color: var(--fondo1);
+    border-bottom: 0.1px solid red;
+   
 }
 .nav
 {
@@ -56,7 +59,7 @@ html{
     height: 40px;
     margin-top: 20px;
     margin-right: 8px; 
-   /* background-color: #110406; */
+  
     padding-left: 5px;
     padding-right:5px ;
     
@@ -67,7 +70,7 @@ html{
     justify-content: space-between;
     height: 30px;
    margin-top: 5px;
-   /* background-color: red;*/
+  
     list-style: none;
     
   
@@ -103,7 +106,7 @@ html{
     width: 100%;
     height: auto;
     
-    
+    background-color: #eeeeee;
 }
 .main--logo{  
    width: 100%;
@@ -112,34 +115,68 @@ html{
     
 }
 .main--logo-imagen{
-   
+    
 }
-.main--logo-imagen img{
+.main--logo-imagen p{
     width: 100%;
     position: relative;
-    height: 280px;
-   opacity: 0.4;
+    height: 295px;
+    opacity:1;
+    background-image: url(/assets/imagenes/fondo9.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    border-bottom: 0.1px solid red;
+  
  
 }
 .main--logo-titulo{
-   
-    width: 190px;
+   display: block;
+    
+    width: 250px;
+    height: 220px;
     position: absolute;
-    margin-top: -150px;
-    background-color: red;
+    margin-top: -220px;
+    margin-left:50px;
+ background-color: #7F8C8D; 
 }
-.main--logo-titulo .foto{
+
+/*.main--logo-titulo .foto{
     background-image: url(/assets/imagenes/perfil3.jpg);
     background-position:left;
     background-repeat: no-repeat;
     background-size: cover;
     width: 80px;
     height: 80px;
- 
+    border-radius: 50%;
+    margin-left: 115px;
+    margin-top: 10px;
+    margin-bottom: 10px;
 }
-.main--logo-titulo .foto{
-   
-   border-radius: 50%;
+*/
+.nombre-profesion{
+    width: auto;
+   background-color: yellow;
+    margin-top: 60px;
+    
+    height: 60px;
+  
 }
+.nombre-profesion .nombre{
+    color:var(--letrablanca);
+    font-family: 'Pacifico', cursive ; 
+    font-size: 1.2rem;
+    letter-spacing: 0.2;
+    margin-left: 40px;
+
+}
+.nombre-profesion .profesion{
+    color:var(--letrablanca);
+    font-family: 'Pacifico', cursive ; 
+    font-size: 1.3rem;
+    margin-left:60px;
+}
+
+
 
 
