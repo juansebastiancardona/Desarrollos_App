@@ -156,7 +156,7 @@ html{
 */
 .nombre-profesion{
     width: auto;
-   background-color: yellow;
+ 
     margin-top: 60px;
     
     height: 60px;
@@ -176,6 +176,31 @@ html{
     font-size: 1.3rem;
     margin-left:60px;
 }
+.redes{
+   position: absolute;
+    width: 150px;
+    height: 40px;
+    margin-top:75px;
+    margin-left: 50px;
+ background-color: red;
+}
+.redes-items{
+    display: flex;
+    justify-content: space-around;
+    list-style: none;
+    margin-top: 15px;
+}
+.redes-items .facebook {
+    
+}
+
+.redes-items .facebook a{
+    
+    
+    
+    
+}
+
 
 
 
