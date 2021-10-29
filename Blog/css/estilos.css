@@ -11,7 +11,7 @@ html{
 }
 :root{
     --fondo1 : #454545;
-    --fondo2: #3b8098 ;
+    --fondo2: #eeeeee; ;
     --letrablanca:#eff3f8;
     --letraazul1: #33b1ff;
     --verde: #96c73f;
@@ -105,8 +105,8 @@ html{
 .main{
     width: 100%;
     height: auto;
-    
-    background-color: #eeeeee;
+    background-color: var(--fondo2);
+    padding-bottom: 10px;
 }
 .main--logo{  
    width: 100%;
@@ -120,13 +120,13 @@ html{
 .main--logo-imagen p{
     width: 100%;
     position: relative;
-    height: 295px;
+    height: 315px;
     opacity:1;
     background-image: url(/assets/imagenes/fondo9.jpg);
     background-position: center;
     background-repeat: no-repeat;
     background-size: cover;
-    border-bottom: 0.1px solid red;
+    border-bottom: 1px solid red;
   
  
 }
@@ -138,7 +138,7 @@ html{
     position: absolute;
     margin-top: -220px;
     margin-left:50px;
- background-color: #7F8C8D; 
+ /*background-color: #7F8C8D; */
 }
 
 /*.main--logo-titulo .foto{
@@ -155,51 +155,171 @@ html{
 }
 */
 .nombre-profesion{
-    width: auto;
- 
-    margin-top: 60px;
-    
+    width: auto; 
     height: 60px;
-  
+    margin-top: 50px;
+    
 }
 .nombre-profesion .nombre{
     color:var(--letrablanca);
     font-family: 'Pacifico', cursive ; 
-    font-size: 1.2rem;
+    font-size: 1.4rem;
     letter-spacing: 0.2;
-    margin-left: 40px;
+    margin-left: 28px;
 
 }
 .nombre-profesion .profesion{
     color:var(--letrablanca);
     font-family: 'Pacifico', cursive ; 
-    font-size: 1.3rem;
+    font-size: 1.2rem;
     margin-left:60px;
 }
 .redes{
    position: absolute;
-    width: 150px;
+    width: 170px;
     height: 40px;
-    margin-top:75px;
-    margin-left: 50px;
- background-color: red;
+    margin-top:90px;
+    margin-left: 35px;
+   /* background-color: yellow; */
 }
 .redes-items{
     display: flex;
     justify-content: space-around;
     list-style: none;
-    margin-top: 15px;
+    margin-top: 5px;
 }
-.redes-items .facebook {
-    
+.redes-items li{
+    background-color: var(--fondo1);
+}
+.redes-items a {
+    text-decoration: none;
 }
 
-.redes-items .facebook a{
+.redes-items .facebook { 
     
-    
-    
+  background-image: url(/assets/iconos/facebook6.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
     
 }
+.redes-items .twitter { 
+   
+    background-image: url(/assets/iconos/twitter.png);
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+  width: 30px;
+  height: 30px;
+  border-radius: 50%;
+  }
+   
+
+  .redes-items .instagram { 
+    background-image: url(/assets/iconos/instagram15.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 30px;
+    height: 30px;
+    border-radius: 50%;
+  }
+
+  /*informacion*/
+
+  .main--informacion{
+    width: 95%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    background-color: #454540 ;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin-top: 150px;
+    border-radius: 8px;
+
+      
+     
+  }
+  .informacion-sobre{
+   /* background-color: #BDC3C7;*/
+    padding: 10px;
+    margin: 0 auto;
+    border-radius: 10px;
+    border: 0.01px solid var(--letrablanca);
+    width: 95%;
+    height: auto;
+   
+  }
+  .informacion-sobre .titulo{
+    font-size: 1.8rem;
+    color: var(--letrablanca);
+    margin-left: 5px;
+  }
+  .informacion-sobre .descripcion{
+    font-size: 1.4rem;
+    margin-left: 5px;
+    margin-top: 5px;
+    color: var(--letrablanca);
+
+  }
+
+  /*informacion comercial*/
+
+  .informacion-comercial{
+    display: block;
+   /* background-color: yellowgreen;*/
+    padding: 10px;
+    margin: 0 auto;
+    border-radius:10px ;
+    border: 0.01px solid var(--letrablanca);
+    width: 95%;
+    height: auto;
+    margin-top: 10px;
+
+}
+.informacion-comercial .titulo{
+    font-size: 1.8rem;
+    color: var(--letrablanca);
+    margin-left: 5px;
+}
+.informacion-comercial .tabla{
+    width: 95%;
+    margin: 0 auto;
+    margin-top: 5px;
+   /* background-color:red;*/
+    color: var(--letrablanca);
+    border-radius: 5px;
+}
+.informacion-comercial .tabla tr{
+    
+}
+.informacion-comercial .tabla td{
+   
+    width: 50%;
+    height: 20px;
+    font-size: 1.0rem;
+    
+}
+/*superior*/
+.informacion-comercial .tabla .colsupiz{
+   border-top: 0.5px solid white;
+}
+.informacion-comercial .tabla .colsupder{
+    border-top: 0.5px solid white;
+    border-left:0.5px solid white; ;
+    padding-left: 2px;
+ }
+ /*inferior*/
+ 
+ .informacion-comercial .tabla .col{
+
+
+ }
+
 
 
 
