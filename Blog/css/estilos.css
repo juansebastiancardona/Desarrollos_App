@@ -120,7 +120,7 @@ html{
 .main--logo-imagen p{
     width: 100%;
     position: relative;
-    height: 315px;
+    height: 340px;
     opacity:1;
     background-image: url(/assets/imagenes/fondo9.jpg);
     background-position: center;
@@ -157,28 +157,28 @@ html{
 .nombre-profesion{
     width: auto; 
     height: 60px;
-    margin-top: 50px;
+    margin-top: 40px;
     
 }
 .nombre-profesion .nombre{
     color:var(--letrablanca);
     font-family: 'Pacifico', cursive ; 
-    font-size: 1.4rem;
+    font-size: 1.5rem;
     letter-spacing: 0.2;
-    margin-left: 28px;
+    margin-left: 20px;
 
 }
 .nombre-profesion .profesion{
     color:var(--letrablanca);
     font-family: 'Pacifico', cursive ; 
-    font-size: 1.2rem;
+    font-size: 1.3rem;
     margin-left:60px;
 }
 .redes{
    position: absolute;
     width: 170px;
     height: 40px;
-    margin-top:90px;
+    margin-top:100px;
     margin-left: 35px;
    /* background-color: yellow; */
 }
@@ -238,7 +238,7 @@ html{
     background-color: #454540 ;
     padding-top: 10px;
     padding-bottom: 10px;
-    margin-top: 150px;
+    margin-top: 180px;
     border-radius: 8px;
 
       
@@ -255,14 +255,16 @@ html{
    
   }
   .informacion-sobre .titulo{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--letrablanca);
     margin-left: 5px;
   }
   .informacion-sobre .descripcion{
-    font-size: 1.4rem;
+    font-size: 1.3rem;
     margin-left: 5px;
     margin-top: 5px;
+    line-height: 1.8rem;
     color: var(--letrablanca);
 
   }
@@ -282,7 +284,8 @@ html{
 
 }
 .informacion-comercial .titulo{
-    font-size: 1.8rem;
+    font-size: 1.5rem;
+    font-weight: 700;
     color: var(--letrablanca);
     margin-left: 5px;
 }
@@ -300,24 +303,79 @@ html{
 .informacion-comercial .tabla td{
    
     width: 50%;
-    height: 20px;
-    font-size: 1.0rem;
+    height: 25px;
+    font-size: 1rem;
+    padding-left: 3px;
     
 }
 /*superior*/
 .informacion-comercial .tabla .colsupiz{
    border-top: 0.5px solid white;
+   border-left:0.5px solid white;
+   border-bottom: 0.5px solid white;
+   font-weight: 600;
+  /* border-right: 0.5px solid white;*/
+  
 }
 .informacion-comercial .tabla .colsupder{
     border-top: 0.5px solid white;
-    border-left:0.5px solid white; ;
-    padding-left: 2px;
+   /* border-left:0.5px solid white;*/
+    border-bottom: 0.5px solid white;
+    border-right: 0.5px solid white;
  }
+
+
+/*https://studylib.es/doc/5986290/soluciones-inform%C3%A1ticas-carta-de-presentacion*/
+ 
+
+.informacion-comercial .tabla .fil{
+     border-left: 0.5px solid white;
+    /* border-top: 0.5px solid white;*/
+     border-bottom: 0.5px solid white;
+     font-weight: 600;
+ }
+ .informacion-comercial .tabla .col{
+   border-bottom: 0.5px solid white ;
+   border-right: 0.5px solid white;
+ }
+
+
  /*inferior*/
  
- .informacion-comercial .tabla .col{
+ .informacion-comercial .tabla .colinfiz{
+   /* border-top: 0.5px solid white; */
+    border-left:0.5px solid white;
+    border-bottom: 0.5px solid white;
+   /* border-right: 0.5px solid white;*/
+   font-weight: 600;
 
+ }
+ .informacion-comercial .tabla .colinfder{
+   /* border-top: 0.5px solid white;*/
+    /* border-left:0.5px solid white;*/
+     border-bottom: 0.5px solid white;
+     border-right: 0.5px solid white;
+ }
 
+ /*SLIDER DE LOS PRODUCTOS Y SERVICIOS*/
+ .main--productos{
+    width: 95%;
+    height: auto;
+    position: relative;
+    margin: 0 auto;
+    border-radius: 8px;
+     background-color:  var(--fondo1);
+     margin-top: 10px;
+     padding-top: 20px;
+     padding-bottom: 10px;
+ }
+
+ .main--productos .productos-titulo{
+     background-color: #33b1ff;
+     width: 170px;
+     margin:  0 auto;
+     text-align: center;
+    
  }
 
 
