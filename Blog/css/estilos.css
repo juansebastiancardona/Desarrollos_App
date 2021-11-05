@@ -235,7 +235,8 @@ html{
     height: auto;
     position: relative;
     margin: 0 auto;
-    background-color: #454540 ;
+    background-color: var(--fondo1);
+    border:0.1rem solid red ;
     padding-top: 10px;
     padding-bottom: 10px;
     margin-top: 180px;
@@ -293,7 +294,7 @@ html{
     width: 95%;
     margin: 0 auto;
     margin-top: 5px;
-   /* background-color:red;*/
+   
     color: var(--letrablanca);
     border-radius: 5px;
 }
@@ -368,20 +369,21 @@ html{
      margin-top: 10px;
      padding-top: 20px;
      padding-bottom: 10px;
+     border:0.1rem solid red ;
  }
 
  .main--productos .productos-titulo{
-   /* background-color: #33b1ff;*/
-     width: 300px;
+  /*background-color: #33b1ff;*/
+     width: 310px;
      margin:  0 auto;
      padding: 5px;
      text-align: center;
     
  }
  .productos-titulo h3{
-     font-size: 1.8rem;
+     font-size: 2rem;
      color: var(--letrablanca);
-     margin-bottom: 10px;
+     margin-bottom: 20px;
  }
  .productos-titulo p{
     font-size: 1.3rem;
@@ -391,9 +393,9 @@ html{
  .main--productos-slider{
     display: flex;
     height: 330px;
-    margin-top: 20px;
-    padding-left: 20px;
-    padding-right:20px ;
+    margin-top: 10px;
+    padding-left: 30px;
+    padding-right:40px ;
    
    background-color: var(--fondo1) ;
    
@@ -407,43 +409,46 @@ html{
  .productos-article{
     position: relative;
     scroll-snap-align: center;
-    width: 240px;
-    height: 260px;
-    min-width: 250px;
-    max-width: 300px;
+    width: 250px;
+    height: 280px;
+  
     margin-top: 30px;
-    margin-right: 20px;
-    margin-left: 40px;
-  background-color:#BDC3C7 ;
-   /*background-color: antiquewhite;*/
+    
+    margin-left: 30px;
+    background-color: var(--fondo2) ;
+   /* box-shadow: 0 1px 2px red;*/
     border-radius: 15px;
-    box-shadow: 0 4px 8px rgba(89,73,30, 0.16);
+    border: 0.5rem double var(--fondo1);
+    
  }
  .productos-article .article-titulo{
      position: absolute;
      background-color: rgb(83, 75, 75);
      width: 120px;
-     height: 25px;
+     height: 27px;
      margin: 0 auto;
      margin-top: -15px;
-     margin-left: 50px;
+     margin-left: 60px;
      border-radius: 7px;
+   
      display: flex;
      justify-content: center;
      align-items: center;
+
  }
  .article-titulo p{
     color: var(--letrablanca);
-    font-size: 1.2rem;
+    font-size: 1.3rem;
  }
  .article-informacion{
      width: 220px;
-     height: 200px;
+     height: 240px;
      display: block;
+    
      background-color:var(--fondo1);
- 
-     margin-top: 30px;
-     margin-left: 15px;
+    border-radius: 15px;
+     margin-top: 25px;
+     margin-left: 10px;
      margin-right: 10px;
     padding: 10px;
      
@@ -453,7 +458,8 @@ html{
      display: flex;
      justify-content: center;
      width: 100%;
-     
+     margin-top: 5px;
+     margin-left: -15px;
      font-size: 1.5rem;
      color: var(--letrablanca);
     
@@ -463,6 +469,7 @@ html{
     background-position: center;
     background-repeat: no-repeat;
     background-size: contain;
+    border-radius: 10px;
     width: 150px;
     height: 80px;
     margin: 0 auto;
@@ -476,7 +483,7 @@ html{
      background-size: contain;
      width: 150px;
      height: 80px;
-
+     border-radius: 10px;
      margin: 0 auto;
      margin-top: 15px;
      margin-bottom: 10px;
@@ -488,17 +495,112 @@ html{
     background-size: contain;
     width: 150px;
     height: 80px;
-
+    border-radius: 10px;
     margin: 0 auto;
     margin-top: 15px;
     margin-bottom: 10px;
  }
- .article-informacion button{
-     display: flex;
-     margin: 0 auto;
+ .lista{
+     margin-bottom: 10px;
+ }
+ .lista li{
+     list-style: none;
+     line-height: 1.5rem;
+     margin-left: 25px;
+     
+ }
+ .lista li a{
+     text-decoration: none;
+     color: var(--letrablanca);
  }
 
 
+ .article-informacion button{
+     display: flex;
+     justify-content: center;
+     width: 80px;
+     margin: 0 auto;
+     margin-left: 25px;
+        color: var(--letrablanca);
+        font-size: 1.2rem;
+    background-color: var(--fondo1);
+     border-radius: 5px;
+     border: 0.01rem solid var(--letrablanca);
+     padding:3px
+
+ }
+
+ /*FOOTER*/
+ .footer{
+     display: flex;
+     justify-content: space-between;
+     background-color: aqua;
+     width: 100%;
+    background-color: var(--fondo1);
+     height: 150px;
+     padding-bottom: 20px;
+     border-top: 0.1rem solid red;
+ }
+ 
+ .footer--perfil  {
+     background-image: url(/assets/imagenes/perfil3.jpg);
+     background-position: center;
+     background-repeat: no-repeat;
+     background-size: cover;
+    width: 82px;
+    height: 82px;
+    margin-top: 30px;
+    margin-left: 50px;
+    margin-right: 10px;
+    border-radius: 50px;
+    
+}
+.footer--datos{
+   
+    width: 190px;
+    height: 50px;
+    margin-top: 45px;
+    margin-right: 10px;
+   
+ /*background-color: #96c73f;*/
+}
+.footer--datos h3{
+    font-size: 1.3rem;
+    color: var(--letrablanca);
+   margin-left: 15px;
+   margin-top: 5px;
+   margin-bottom: 5px;
+}
+.footer--datos p{
+    font-size: 1.0rem;
+    line-height: 1.5rem;
+    font-weight: bold;
+    color: var(--letrablanca);
+   margin-left: 15px;
+}
+/*
+ .footer--redes{
+    
+     width: 100px;
+    height: auto;
+     background-color: red;
+     margin-right: 10px;
+     margin-top: 0px;
+   
+ }
+
+ .footer--redes .redes-items{
+    display: block;
+ 
+    margin-top: 5px;
+    margin-left: 10px;
+    padding-bottom: 20px;
+ }
+ .footer--redes .redes-items li {
+     margin-bottom: 10px;
+   
+ }
+ */
 
 
 
