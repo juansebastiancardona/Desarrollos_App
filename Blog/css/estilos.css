@@ -115,7 +115,9 @@ html{
    
     
 }
-
+.main--logo-imagen{
+    
+}
 .main--logo-imagen p{
     width: 100%;
     position: relative;
@@ -182,7 +184,7 @@ html{
     height: 40px;
     margin-top:100px;
     margin-left: 35px;
-   
+   /* background-color: yellow; */
 }
 .redes-items{
     display: flex;
@@ -210,7 +212,7 @@ html{
 }
 .redes-items .twitter { 
    
-background-image: url(/assets/iconos/twitter.png);
+    background-image: url(/assets/iconos/twitter.png);
   background-position: center;
   background-repeat: no-repeat;
   background-size: cover;
