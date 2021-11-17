@@ -132,35 +132,22 @@ html{
  
 }
 .main--logo-titulo{
-   display: block;
+   display: inline-block;
     
     width: 250px;
     height: 220px;
     position: absolute;
     margin-top: -220px;
     margin-left:50px;
- /*background-color: #7F8C8D; */
+ 
 }
 
-/*.main--logo-titulo .foto{
-    background-image: url(/assets/imagenes/perfil3.jpg);
-    background-position:left;
-    background-repeat: no-repeat;
-    background-size: cover;
-    width: 80px;
-    height: 80px;
-    border-radius: 50%;
-    margin-left: 115px;
-    margin-top: 10px;
-    margin-bottom: 10px;
-}
-*/
+
 .nombre-profesion{
-    width: auto;
+    width:250px;
     /*aqui */
-    min-width: 280px;
-    max-width: 900px;
-    height: 60px;
+   
+    height: 70px;
     margin-top: 40px;
     
 }
