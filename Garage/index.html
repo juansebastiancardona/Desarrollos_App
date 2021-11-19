@@ -9,22 +9,30 @@
     
 </head>
 <body>
-    <section>
-        <section>
-            <img src="/assets/imagenes/Jsolutions (1).png" alt="logo de Jsolutions">
-            <h1>Inicio de Sesión</h1>
-            <p>Jsolutions Tecnologia y Servicios</p>
+    <main class="main">
+        <section class="contenedor-formulario">
+            <img src="/assets/imagenes/Jsolutions (1).png" class="formulario--logo" alt="logo de Jsolutions">
+            <h1 class="formulario--titulo"> Tecnologia y Servicios</h1>
+            <p class="formulario--subtitulo">Inicio de Sesión</p>
 
-            <form action="">
-                <label for="">Ingrese su Usuario</label>
-                <input type="text" name="" id="" placeholder="Usuario">
-                <label for="">Contraseña</label>
-                <input type="password" name="" id="" placeholder="************">
+            <form action="" class="formulario--formulario">
+
+                <label for="" class="label label-usuario">Correo: </label>
+                <input type="text" name="" id="" class="input input-usuario" placeholder="Usuario">
+
+                <label for="" class="label label-password">Contraseña:</label>
+                <input type="password" name="" id=""  class="input input-usuario" placeholder="************">
+                <!-- aqui tamnbien puede ser un input -->
+                <button type="submit" class="formulario--boton" onclick="">Iniciar Sesión</button>
+
+                <button type="submit" class="formulario--boton registro" onclick="">Registrarse</button>
             </form>
 
-            <button type="submit">Ingresar</button>
+             
+
+          
         </section>
-    </section>
+    </main>
     
 </body>
 </html>
