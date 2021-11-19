@@ -85,7 +85,7 @@ html{
 }
 .formulario--boton{
      width: 100%;
-     font-size: var(--Tpequeno);
+     font-size: 1.5rem;
      letter-spacing: 0.05rem;
      font-weight:bold;
     border: none;
