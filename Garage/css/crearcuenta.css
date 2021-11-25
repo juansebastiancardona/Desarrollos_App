@@ -15,24 +15,8 @@ html{
     --Tgrande:2.2rem;
     --colorboton:#004aad;
 }
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
-
-html{
-    font-size: 62.5%;
-}
-:root{
-    --fondoprincipal: #e7e7e7;
-    --fondoformulario: #d7d7d7;
-    --colorinput: #f7f7f7;
-    --Tpequeno: 1.4rem;
-    --Tgrande:2.2rem;
-    --colorboton:#004aad;
-}
 .main{
+    
     width: 100%;
     height: 100vh;
     /*centrar contendio vewrtical y horizontal*/
@@ -70,12 +54,11 @@ html{
 }
 .formulario--subtitulo{
     color: black;
-   /* background-color: antiquewhite; */
-    font-weight: 500;
+    font-weight: 600;
    font-size: var(--Tpequeno );
-   margin-bottom: 20px;
-   /* padding:0 5px 0 5px; */
-    text-align: center;
+   margin-bottom: 10px;
+   margin-left:15px;
+    
 }
 .formulario--formulario{
     display: flex;
@@ -101,56 +84,6 @@ html{
     background-color:  var(--colorinput);
    
 }
-.captcha{
-    display: flex;
-    border-radius: 5px;
-    flex-wrap: wrap;
-  border: 0.5px solid gray;
-  margin-top: 10px;
-    width: 100%;
-    height:80px ;
-}
-.captcha-izquierdo{
-    display: flex;
-    justify-content: space-around;
-    margin-top: 25px;
-    width: 120px;
- 
-   height: 30px;
-    /* background-color: yellow; */
-   padding-top: 10px;
-    margin-right: 15px;
-    margin-left: 10px;
-}
-.captcha-izquierdo .checkbox{
-   
-    transform: scale(1.3);
-    margin-right: 4px;
-    
-}
-.captcha-izquierdo p{
-
-  font-size: 1.2rem;
-  
- 
- 
-}
-.captcha-derecho{
-   
-   padding-top: 5px;
-}
-.captcha-derecho img {
-    width: 50px;
-    height: 50px;
-    margin-left: 55px;
-}
-
-.captcha-derecho p{
-    color: black;
-    font-size: 0.9rem;
-    font-weight: 500;
-    margin-left: 6px;
-}
 .formulario--boton{
      width: 100%;
      font-size: 1.4rem;
@@ -162,13 +95,7 @@ html{
      background-color: var(--colorboton);
      height: 45px;
     margin: 0 auto;
-    margin-top: 20px;
+    margin-top: 40px;
     cursor: pointer;
-}
-.formulario--boton a{
-    color: white;
-    font-size: 1.5rem;
-    font-weight: 300;
-    text-decoration: none;
 }
 
