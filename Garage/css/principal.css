@@ -1,0 +1,89 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+:root{
+    --fondoprincipal: #e7e7e7;
+    --fondoformulario: #d7d7d7;
+    --colorinput: #f7f7f7;
+    --Tpequeno: 1.7rem;
+    --Tgrande:2.2rem;
+    --colorboton:#004aad;
+}
+.main{
+    width: 100%;
+ height: 100vh;
+    display: grid;
+    justify-content: center;
+    background-color: var(--fondoprincipal);
+   
+    /*centrar contendio vewrtical y horizontal*/
+   
+    
+}
+.contenedor-cartas{
+    margin-top: 20px;
+    
+    display: grid;
+    /* grid-template-columns: repeat(auto-fill, 160px); */
+    grid-template-columns: repeat(2,1fr);
+}
+.carta{
+    display: flex;
+    flex-direction: column;
+    padding: 5px 0;
+    border-radius: 5px;
+    width: 150px;
+    background-color:var(--fondoformulario);
+}
+.carta .carta-img{
+    width: 135px;
+    border-radius: 5px;
+    object-fit: contain;
+    margin: 0 auto;
+    
+}
+.carta-info{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 140px;
+    height:70px;
+ 
+    margin: 0 auto;
+    margin-top: 10px;
+    background-color:var(--fondoprincipal);
+}
+.carta--descripcion{
+   
+    width: 90px;
+    height: 60px;
+    align-items: center;
+    margin-left: 3px;
+    /* background-color: greenyellow; */
+    padding-top: 10px;
+    padding-left: 5px;
+}
+
+.descripcion--precio{
+    font-size:1.2rem;
+    font-weight: bold;
+}
+.descripcion--titulo{
+font-size: 1.1rem;
+color: black;
+font-weight: 400;
+
+}
+.carta--icono{
+    /* background-color: red; */
+    margin-right: 5px;
+  
+}
+
+
