@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
 *{
     margin: 0;
     padding: 0;
@@ -15,17 +16,79 @@ html{
     --Tgrande:2.2rem;
     --colorboton:#004aad;
 }
+.header{
+  
+ 
+ 
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    height: 60px ;
+    background-color: var(--fondoprincipal);
+    border-bottom: 2px solid var(--fondoformulario);
+    padding: 0 15px;
+
+}
+.nav-menu img{
+    width: 25px;
+    height: 25px;
+
+}
+.nav-logo p {
+    font-size:  var(--Tgrande);
+    letter-spacing: 0.1rem;
+    font-weight: bold;
+    font-family: 'Pacifico', cursive ;
+}
+.nav-agregar img{
+    width: 30px;
+    height: 30px;
+}
+
+/*//////////////////////////////*/
 .main{
     width: 100%;
- height: 100vh;
+    height: auto;
     display: grid;
     justify-content: center;
+  
     background-color: var(--fondoprincipal);
    
     /*centrar contendio vewrtical y horizontal*/
    
     
 }
+
+.main-buscar{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 35px;
+    margin-top: 15px;
+    margin-bottom: 5px;
+    background-color: var(--fondoformulario);
+    border-radius: 8px;
+}
+.main-buscar a .buscar{
+    width: 20px;
+    height: 20px;
+    margin-right: 10px;
+}
+.main-buscar input{
+    width: 250px;
+    height: 25px;
+    border: none;
+    padding-left: 5px;
+    background-color: var(--fondoformulario);
+    outline: none;
+}
+
+
+
 .contenedor-cartas{
     margin-top: 20px;
     
@@ -37,15 +100,22 @@ html{
     display: flex;
     flex-direction: column;
     padding: 5px 0;
-    border-radius: 5px;
+    
     width: 150px;
     background-color:var(--fondoformulario);
+}
+.carta--izquierda{
+    border-top-left-radius: 5px;
+}
+.carta--derecha{
+    border-top-right-radius: 5px;
 }
 .carta .carta-img{
     width: 135px;
     border-radius: 5px;
     object-fit: contain;
     margin: 0 auto;
+    margin-top: 10px;
     
 }
 .carta-info{
@@ -78,12 +148,20 @@ html{
 font-size: 1.1rem;
 color: black;
 font-weight: 400;
+width: 90px;
+/* background-color: #004aad; */
 
 }
-.carta--icono{
+.carta--icono {
     /* background-color: red; */
     margin-right: 5px;
-  
 }
+.carta--icono img
+{
+    width: 27px;
+    height: 27px;
+}  
+
+
 
 
