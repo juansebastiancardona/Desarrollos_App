@@ -1,0 +1,61 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html{
+    font-size: 62.5%;
+}
+:root{
+    --fondoprincipal: #e7e7e7;
+    --fondoformulario: #d7d7d7;
+    --colorinput: #f7f7f7;
+    --Tpequeno: 1.7rem;
+    --Tgrande:2.2rem;
+    --colorboton:#004aad;
+}
+.menu{
+    padding: 40px;
+    font-family: 'Pacifico' ;
+}
+.menu ul{
+    margin-bottom: 20px;
+}
+.menu li{
+    list-style: none ;
+  
+    margin-bottom: 20px;
+    font-size: var(--Tpequeno);
+}
+.menu a{
+    text-decoration: none;
+    color: black;
+    font-weight: 300;
+}
+.menu-categorias{
+  
+}
+.menu-categorias .titulo{
+  color: black;
+  font-size:  var(--Tgrande);
+  font-weight: bold;
+}
+
+.menu-cuenta{
+   
+    padding-top: 25px;
+    border-top: 2px solid var(--fondoformulario);
+}
+.menu-menu{
+    margin-top: 80px;
+   
+}
+  .menu-menu .email{
+    color: grey;
+}
+.menu-menu .salir{
+    color: var(--colorboton);
+    font-weight: 600;
+}
