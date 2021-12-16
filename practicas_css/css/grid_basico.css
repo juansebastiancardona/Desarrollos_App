@@ -59,9 +59,10 @@ border: 2px solid green;
 .item4{
 
     display: flex;
+    justify-content: center;
+    align-items: center;
    
-    justify-content: end;
-    align-items: flex-end;
+   
     font-size: 4rem; 
     background-color: greenyellow;
     
@@ -84,7 +85,7 @@ border: 2px solid green;
    
     display: flex;
     justify-content: flex-end;
-    align-items: end;
+    align-items: center;
 }
 .item5 div{
     display: flex;
@@ -99,7 +100,7 @@ border: 2px solid green;
     background-color: rgb(30, 133, 55);
     
     display: flex;
-    justify-content: flex-end;
+    justify-content: center;
     align-items: end;
    
 }
