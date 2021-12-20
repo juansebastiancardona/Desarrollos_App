@@ -5,25 +5,93 @@
 }
 html{
     font-size: 62.5%;
+    
 }
+body{
+    background-color: #F2F3F4;
+}
+
+header{
+   width: 100%;
+   border-bottom: 1px solid gray;
+ 
+}
+
+/* navbar */
+.nav{
+    height: 45px;
+    display: flex;
+    justify-content: space-between;
+    padding: 10px 10px 5px 10px;
+    background-color: #F2F3F4;
+}
+.nav-menu{
+    width: 25px;
+    height: 25px;
+ 
+}
+.nav-texto{
+    font-size: 1.8rem;
+    margin-top: 4px;
+}
+.nav-usuario{
+    width: 27px;
+    height: 27px
+}
+
+/* seccion de menu inicio */
+
 .inicio{
-    width: 50%;
+    margin-top: 10px;
+    
     display: grid;
-    grid-template-columns: repeat(2, 1fr);
-    border: 1px solid red;
+    grid-template-columns: 2fr 1fr;
+   
 }
-.inicio--texto{
+
+
+.inicio--contenido{
     display:flex;
     flex-direction: column;
- align-items: center;
-    border: 2px solid green;
+   /* background-color: skyblue; */
+    padding: 15px;
+    
 }
+.inicio--contenido h2{
+    color: black;
+    font-weight: bold;
+    font-size: 2rem;
+}
+.inicio--contenido p{
+    font-size: 1.3rem;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    line-height: 1.6rem;
+    margin-top: 20px;
+}
+.inicio--contenido button{
+    margin: 0 auto;
+    border-radius: 5px;
+    background-color: gray;
+    margin-top: 20px;
+    padding: 3px;
+    font-weight: 500;
+    font-size: 1.5rem;
+    width: 130px;
+    border: none
+}
+
 .inicio--imagen{
-    border: 2px solid green;
+    /* background-color: hotpink; */
+    display: flex;
+    place-content: center;
+    align-items: center;
+    padding-right: 2px;
+   
 }
 .inicio--imagen img{
-    width: 150px;
-    height: 150px;
+    border-radius: 50%;
+    width: 110px;
+    height: 110px;
     object-fit: cover;
 }
    
