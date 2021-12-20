@@ -1,0 +1,29 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.inicio{
+    width: 50%;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    border: 1px solid red;
+}
+.inicio--texto{
+    display:flex;
+    flex-direction: column;
+ align-items: center;
+    border: 2px solid green;
+}
+.inicio--imagen{
+    border: 2px solid green;
+}
+.inicio--imagen img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+}
+   
