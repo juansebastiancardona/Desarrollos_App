@@ -1,3 +1,7 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Pushster&display=swap');
+
+
 *{
     margin: 0;
     padding: 0;
@@ -10,19 +14,22 @@ html{
 body{
     background-color: #F2F3F4;
 }
+h2{
+    font-family: 'Pushster', cursive;
+}
 
 header{
    width: 100%;
-   border-bottom: 1px solid gray;
+   border-bottom: 1px solid black;
  
 }
 
 /* navbar */
 .nav{
-    height: 45px;
+    height: 55px;
     display: flex;
     justify-content: space-between;
-    padding: 10px 10px 5px 10px;
+    padding: 15px 10px 5px 10px;
     background-color: #F2F3F4;
 }
 .nav-menu{
@@ -31,8 +38,11 @@ header{
  
 }
 .nav-texto{
-    font-size: 1.8rem;
-    margin-top: 4px;
+    font-size: 3rem;
+    letter-spacing: 0.4rem;
+    margin-top: -5px;
+    font-family: 'Pushster', cursive;
+  
 }
 .nav-usuario{
     width: 27px;
@@ -43,9 +53,11 @@ header{
 
 .inicio{
     margin-top: 10px;
-    
     display: grid;
     grid-template-columns: 2fr 1fr;
+
+    border-bottom: 5px solid orangered;
+    padding-bottom: 30px;
    
 }
 
@@ -59,24 +71,28 @@ header{
 }
 .inicio--contenido h2{
     color: black;
-    font-weight: bold;
-    font-size: 2rem;
+    font-weight: 500;
+    line-height: 3.5rem;
+    font-size: 2.6rem;
 }
 .inicio--contenido p{
-    font-size: 1.3rem;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
-    line-height: 1.6rem;
-    margin-top: 20px;
+    font-size: 1.8rem;
+    font-family: 'Pushster', cursive;
+    line-height: 2.2rem;
+    margin-top: 25px;
+    margin-bottom: 10px;
 }
 .inicio--contenido button{
+    width: 120px;
     margin: 0 auto;
+    margin-left: 2px;
     border-radius: 5px;
-    background-color: gray;
+    background-color:#E7401D ;
     margin-top: 20px;
-    padding: 3px;
-    font-weight: 500;
-    font-size: 1.5rem;
-    width: 130px;
+    padding: 2px;
+    font-weight: 400;
+    font-size: 1.4rem;
+  
     border: none
 }
 
@@ -85,7 +101,7 @@ header{
     display: flex;
     place-content: center;
     align-items: center;
-    padding-right: 2px;
+    padding-right: 5px;
    
 }
 .inicio--imagen img{
@@ -94,4 +110,143 @@ header{
     height: 110px;
     object-fit: cover;
 }
+/* seccion central */
+.centro{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+    /* background-color:aquamarine ; */
+
+ 
+}
+.centro--titulo{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 15px;
+    color: black;
+    font-size:2.5rem;
+    font-weight: 200;
    
+  
+}
+
+.centro--plato{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-auto-flow: row;
+    grid-auto-rows: 150px;
+    gap: 15px 10px;
+     margin: 0 auto;
+   
+}
+.completa{
+    width: 300px;
+    grid-area: 1/1/3/3;
+    border-radius: 10px;
+}
+
+.plato1
+
+{
+   width: 145px;
+   height: 150px;
+   object-fit: cover;
+   grid-area: 3 /1 ; 
+   border-radius: 10px;
+    
+}
+.plato2
+{
+    width: 145px;
+    height: 150px;
+ 
+    object-fit: cover;
+   
+   grid-area: 3 /2 ;
+   border-radius: 10px;
+    
+}
+.plato3
+{
+    width: 145px;
+    height: 150px;
+ 
+    object-fit: cover;
+   grid-area: 4 /1 ;
+
+   border-radius: 10px;
+}
+.plato4
+{
+    width: 145px;
+    height: 150px;
+ 
+    object-fit: cover;
+  
+   grid-area: 4 /2 ;
+ border-radius: 10px;
+    
+}
+
+.inferior{
+    margin: 0 auto;
+    margin-top: 15px;
+    width: 90%;
+    display: flex;
+    flex-direction: column;
+
+
+   
+}
+.inferior--titulo{
+    margin: 0 auto;
+    margin-top: 10px;
+    margin-bottom: 20px;
+  
+    color: black;
+    font-size:2.5rem;
+    font-weight: 200;
+   
+  
+}
+.inferior--plato{
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    grid-auto-flow: row;
+    grid-auto-rows: 150px;
+    gap: 10px;
+    margin-bottom: 10px;
+ 
+    
+}
+.gourmet{
+    width: 145px;
+   height: 150px;
+   object-fit: cover;
+ background-color: #E7401D ;
+ 
+   border-radius: 10px;
+  
+}
+.gourmet1{
+    
+  gap: 10px;
+}
+
+    .footer{
+        height: 65px;
+        display: flex;
+        justify-content: space-between;
+       border-top: 1px solid black;
+        padding: 20px 45px 5px 45px;
+        
+    }
+    .footer .redes{
+        width: 30px;
+        height: 30px;
+     
+    }
+    
+    
