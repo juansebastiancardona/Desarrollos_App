@@ -1,0 +1,27 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+:root{
+    --fondo_principal: red;
+    --color1:yellow;
+    --color: blue;
+    --color:violet;
+
+}
+.contenedor{
+    background-color: aqua;
+    display: grid;
+    grid-template:  repeat(10,1fr) / repeat(10,1fr);
+    border: 1px solid red;
+    height: 100vh;
+}
+.item{
+   
+    border: 1px solid green;
+   
+}
