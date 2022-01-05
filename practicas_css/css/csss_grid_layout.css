@@ -9,19 +9,71 @@ html{
 :root{
     --fondo_principal: red;
     --color1:yellow;
-    --color: blue;
-    --color:violet;
+    --color2: blue;
+    --color3:violet;
+    --color4: rgb(114, 250, 166);
 
 }
-.contenedor{
+body{
     background-color: aqua;
+}
+.contenedor{
+    background-image: linear-gradient(to right bottom, #0b0537, #002a5f, #004868, #00624c, #077810);
     display: grid;
     grid-template:  repeat(10,1fr) / repeat(10,1fr);
     border: 1px solid red;
+    width: 100%;
     height: 100vh;
+
+   
 }
 .item{
+  
+  
    
-    border: 1px solid green;
-   
+}
+.item1{
+    background-color: yellow;
+    grid-area: 5 / 1 / 10/ 2 ;
+
+}
+.item2{
+    background-color:  var(--color2);
+    grid-area: 7 / 1 / 9/ 4 ;
+    /* grid-column: 1/ 4 ;
+    grid-row: 7 / 9; */
+}
+
+.item3{
+    position: relative;
+    background-color:  var(--color3);
+    grid-area: 6 / 5 / 11/ 8 ;
+}
+.item4{
+   border:2px solid var(--color4);
+    grid-area: 5 / 6 / 8/ 9 ;
+}
+.item5{
+    border:2px solid var(--color4);
+    grid-area: 3 / 7 / 9/ 10 ;
+}
+.item6{
+    background-color:  var(--color3);
+    grid-area: 3 / 3 / 4/ 4 ;
+
+}
+.pseudo{
+    color: white;
+    font-size: 5rem;
+    position: absolute;
+    margin-top: 120px;
+    margin-left: 390px;
+    transform: rotate(270deg);
+}
+.curso{
+    color: white;
+    font-size:  7rem;
+    position: absolute;
+    margin-top: 185px;
+    margin-left: 760px;
 }
