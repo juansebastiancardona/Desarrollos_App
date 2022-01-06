@@ -1,0 +1,66 @@
+/* contenedor en 2d */
+.contenedor{
+    background-color: red;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.circle1{
+    background-color: green;
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.circle1:hover{
+    transform: translate(20px, 70px);
+}
+
+.circle2{
+    margin-top: 20px;
+    margin-left: 50px;
+    background-color: rgb(90, 90, 14);
+    border-radius: 50%;
+    width: 100px;
+    height: 100px;
+}
+.circle2:hover{
+    transform: scaleX(0.8);
+    /* transform: scaleY(0.8); */
+}
+.circle3{
+    background-color: rgb(109, 50, 205);
+    margin-top: 40px;
+    border-radius: 20%;
+    width: 100px;
+    height: 100px;
+}
+.circle3:hover{
+    transform: skew(20deg);
+}
+.circle4{
+    background-color: tomato;
+    margin-top: 80px;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+}
+.circle4:hover{
+    transform: rotate(1000deg);
+}
+
+.circle5{
+    background-color: rgb(71, 105, 255);
+    margin-top: 90px;
+    margin-left:50PX ;
+    border-radius: 30%;
+    width: 100px;
+    height: 100px;
+
+    transform-origin: right top ;
+}
+.circle5:hover{
+    transform: rotate(20deg);
+}
+
+
+/* contenedor en 3d */
