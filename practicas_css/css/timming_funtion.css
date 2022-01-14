@@ -1,0 +1,35 @@
+/* .contenedor{
+    background-color: red;
+    width: 200px;
+    height: 100vh;
+} */
+.contenedor:hover .circo{
+    transform: translateX(300PX);
+}
+.circo{
+    width: 80px;
+    height: 80px;
+    
+    border-radius: 50%;
+}
+.circo1{
+    background-color: royalblue;
+    transition: transform 1s linear;
+   
+    transition-delay:0.5s ;
+}
+.circo2{
+    background-color: rgb(65, 225, 105);
+    transition: transform 1s ease;
+    transition-delay:1s ;
+}
+.circo3{
+    background-color: rgb(225, 65, 92);
+    transition: transform 1.5s ease-in;
+    transition-delay:1.5s ;
+}
+.circo4{
+    background-color: rgb(225, 174, 65);
+    transition: transform 2s ease-in-out;
+    transition-delay:2s;
+}
