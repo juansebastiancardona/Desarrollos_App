@@ -14,7 +14,8 @@ html{
     width: 100%;
     height: 70px;
     
-    background-color: aqua;
+    background-color:#FDEDEC;
+    border-bottom: 0.01rem solid gray;
 }
 .header-logo img{
     margin-left: 70px;
@@ -24,38 +25,124 @@ html{
     height: 50px;
 }
 .header-titulo{
-    margin-left: 20px;
+    margin-left: 24px;
     
 }
 main{
    display: flex;
    flex-direction: column;
-  
+ 
     width: 100%;
-    height: 100vh;
+    height: auto;
    
-    background-color: red;
+    background-color: #FDFEFE;
+    padding-bottom: 50px;
 }
+.main-presentacion{
+    display: flex;
+    justify-content: center;
+     
+    background-color:#EAECEE;
+    margin-top: 20px;
+}
+.main-presentacion  h2{
+   font-weight: bold;
+   
+}
+
 main section{
     margin: 0 auto;
     margin-top: 10px;
     width: 90% ;
-    height: 150px;
+    height: auto;
+    padding: 10px;
+    border: solid black 1px;
+    border-radius: 10px;
+
 }
 .main-triangulo{
     margin-top: 20px;
-    background-color: yellow;
+    background-color:#EAECEE;
 }
-.triangulo--titulo p{
-    
+/* titulo */
+.triangulo-titulo{
+    display: flex;
+    flex-direction: column;
+    /* background-color: blue; */
+    align-items: center;
 }
-.triangulo--titulo img{
+
+.triangulo-titulo p{
+    font-size: 2rem;
+}
+.triangulo-titulo img{
     object-fit: contain;
     width: 50px;
     height: 50px;
-    
+    margin-bottom: 10px;
 }
 
+/* formulario */
+
+.triangulo-formulario{
+   
+    /* background-color: aqua; */
+    padding-bottom: 10px;
+}
+.formulario--formulario{
+   display: flex;
+   flex-direction: column;
+}
+.formulario--formulario label{
+    color: black;
+    font-size: 1.5rem;
+    margin-left: 27px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+
+
+}
+.formulario--formulario input{
+    width: 80%;
+    margin: 0 auto;
+    border-radius: 5px;
+    margin-top: 3px;
+    padding-left: 5px;
+    border:0.01px solid gray
+   
+}
+.formulario--formulario input::placeholder{
+    
+    font-size:1.1rem ;
+ 
+}
+
+/* botones */
+
+.formulario-botones{
+    display: flex;
+    justify-content: space-around;
+    width: 80%;
+    /* background-color: blueviolet; */
+    margin: 0 auto;
+    padding: 3px 0;
+    
+}
+.formulario-botones button{
+    border: 1px solid gray;
+    border-radius: 5px;
+    padding: 3px 10px;
+}
+
+
+
+
+
+
+
+
+
+/* otras formas */
 .main-cuadrado{
     background-color: green;
 }
