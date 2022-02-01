@@ -9,7 +9,6 @@ const perimetro = lado * 4;
 console.log("el perimetro del cuadrado es " + perimetro);
  const area= lado * lado;
 
-<<<<<<< HEAD
  console.log("el area del cuadrado es " + area);
 
 //  ENCAPSULANDO EL CODIGO EN FUNCIONES 
@@ -66,4 +65,4 @@ console.groupEnd();
 
 
 
->>>>>>> bb5e32f737529700798107bb375637f273e2c1da
+
