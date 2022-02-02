@@ -37,17 +37,17 @@
             <div class="triangulo-formulario">
                 <form action="" class="formulario--formulario">
                     <label for="">Escribe los lados  del triangulo:</label>
-                    <input type="text" placeholder="Lado 1"> 
-                    <input type="text"  placeholder="Lado 2"> 
+                    <input type="text" placeholder="Lado 1" id="inputrilado1"> 
+                    <input type="text"  placeholder="Lado 2" id="inputrilado2"> 
                     <label for="">Escribe la Base y la Altura:</label>
-                    <input type="text" placeholder="Base:"> 
-                    <input type="text"  placeholder="Altura:">     
+                    <input type="text" placeholder="Base:" id="inputribase"> 
+                    <input type="text"  placeholder="Altura:" id="inputrialtura">     
                 </form>
             </div>
 
             <div class="formulario-botones">
-                <button class="button" type="button">Área</button>
-                <button class="button" type="button">Perímetro</button>
+                <button class="button" type="button"  >Área</button>
+                <button class="button" type="button" onclick="calcularperitriangulo()">Perímetro</button>
             </div>
         </section>
         <!-- cuadrado -->

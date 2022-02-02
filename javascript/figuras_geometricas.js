@@ -39,7 +39,6 @@ function areacirculo(radio){
     return (radio * radio )* PI;
 }
  
-=======
  console.log("el area del cuadrado es " + area+"cm");
 
 console.groupEnd();
