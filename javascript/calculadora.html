@@ -47,7 +47,7 @@
             </div>
 
             <div class="formulario-botones">
-                <button class="button" type="button"  >Área</button>
+                <button class="button" type="button" onclick="calcularareatriangulo()" >Área</button>
                 <button class="button" type="button" onclick="calcularperitriangulo()">Perímetro</button>
             </div>
         </section>
@@ -56,7 +56,7 @@
         <section class="main-triangulo">
             <div class="triangulo-titulo">
                 <p>Cuadrado</p>               
-                <img src="/assets/img/triangulo.png" alt="">
+                <img src="/assets/img/cuadrado.png" alt="">
 
             </div>
 
@@ -84,21 +84,21 @@
             <section class="main-triangulo">
                 <div class="triangulo-titulo">
                     <p>Círculo</p>               
-                    <img src="/assets/img/triangulo.png" alt="">
+                    <img src="/assets/img/circulo.jpg" alt="">
     
                 </div>
     
                 <div class="triangulo-formulario">
                     <form action="" class="formulario--formulario">
                         <label for="">Escribe el Radio del Círculo:</label>
-                        <input type="text" placeholder="Radio"> 
+                        <input type="text" placeholder="Radio" id="inputradio"> 
                          
                     </form>
                 </div>
     
                 <div class="formulario-botones">
-                    <button class="button" type="button">Área</button>
-                    <button class="button" type="button">Perímetro</button>
+                    <button class="button" type="button" onclick="calcularareacirculo()">Área</button>
+                    <button class="button" type="button" onclick="calcularperimetrocirculo()()">Perímetro</button>
                 </div>
             </section>
     </main>

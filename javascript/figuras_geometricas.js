@@ -36,12 +36,14 @@ function pericirculo(radio){
 }
 function areacirculo(radio){
     
-    return (radio * radio )* PI;
+    return (radio * radio ) *PI;
 }
  
  console.log("el area del cuadrado es " + area+"cm");
 
 console.groupEnd();
+
+
 
 console.group("triangulo");
 //  triangulo
