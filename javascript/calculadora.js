@@ -1,42 +1,8 @@
-function perimetrotriangulo(lado1, lado2, base){
+function perimetrotriangulo(lado1,lado2,base){
 
-    const peri = lado1 + lado2 + base;
-    return peri;
+   
+    return (lado1 + lado2 + base);
 }
-
-function areatriangulo(base , altura){
-    return (base * altura) / 2;
-
-}
-
-// cuadrado
-function perimetrocuadrado(lado){
-    return lado* 4;
-}
-function areacuadrado (lado){
-
-    return lado * lado;
-}
-
-// circulo
-function diametrocirculo(radio){
-    return radio * 2;
-}
-
-const PI = Math.PI;
-
-
-function pericirculo(radio){
-    const diamtetro = diametrocirculo(radio); 
-    return diamtetro * PI;
-}
-function areacirculo(radio){
-    
-    return (radio * radio )* PI;
-}
-
-
-//interactuando con html
 
 function calcularperitriangulo(){
     const ladotri1 = document.getElementById("inputrilado1");
@@ -53,6 +19,45 @@ function calcularperitriangulo(){
 
     alert(peritriangulo);
 }
+
+
+
+function areatriangulo(base , altura){
+    return (base * altura) / 2;
+
+}
+
+// cuadrado
+function perimetrocuadrado(lado){
+    return lado* 4;
+}
+function areacuadrado (lado){
+
+    return lado * lado;
+}
+
+// circulo
+const PI = Math.PI;
+function diametrocirculo(radio){
+    return radio * 2;
+}
+
+
+
+
+function pericirculo(radio){
+    const diamtetro = diametrocirculo(radio); 
+    return diamtetro * PI;
+}
+function areacirculo(radio){
+    
+    return (radio * radio )* PI;
+}
+
+
+//interactuando con html
+
+
 
 function calcularareatriangulo(){
     const basetri = document.getElementById("inputribase");
