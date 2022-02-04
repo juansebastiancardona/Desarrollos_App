@@ -5,9 +5,53 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Descuentos</title>
+    <link rel="stylesheet" href="/css/descuentos.css">
 </head>
 <body>
-    <script src="/descuentos.js"></script>
+<script src="/descuentos.js"></script>
+
+<header class="header">
+    <div class="header-logo">
+        <img src="/assets/img/prisma.jpg" alt="">
+    </div>
+    <div class="header-titulo">
+        <h1>PRISMA</h1>
+           
+     </div>
+</header>
+
+<main>
+    <section class="main-presentacion">
+        <div class="presentacion">
+            <img src="/assets/img/carrito-de-compras.png" alt="">
+            <p>Calcula el Precio de los productos con </p>
+        </div>
+    </section>
+
+    <section class="main-formulario"> 
+       <form action="">
+           <label for="inputPrecio">Valor del producto</label>
+           <input type="text" id="inputPrecio" >
+           <label for="inputDescuento">Descuento</label>
+           <input type="text" id="inputDescuento">
+
+           <button type="button"  onclick="calcularDescuento()">Calcular</button>
+       </form>
+
+    </section>
+
+    <section class="main-tarjeta">
+        <div>
+            <p id="ResultadoPrecio">
+               $00.0
+            </p>
+        </div>
+
+    </section>
+
+</main>
+
+
     
 </body>
 </html>
