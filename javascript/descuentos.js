@@ -19,7 +19,7 @@ function Descuento(precio ,porcentajeDescuento){
 
  const resultadop = document.getElementById("ResultadoPrecio");
 
-    resultadop.innerText = `el total a pagar por su producto que vale tiene el ` + porcentajeDescuento + `% de descuento, es de $` + total_descuento + ` (valor del descuento: $`+ valor_descuento + `)`;
+    resultadop.innerText = ` $`+ valor_descuento ;
 
 //  return  (`el total a pagar por su producto que tiene el ` + porcentajeDescuento + `% de descuento, es de $` + total_descuento + ` (valor del descuento: $`+ valor_descuento + `)`);
 

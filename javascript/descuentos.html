@@ -12,10 +12,10 @@
 
 <header class="header">
     <div class="header-logo">
-        <img src="/assets/img/prisma.jpg" alt="">
+        <img src="/assets/img/descuento.jpg" alt="">
     </div>
     <div class="header-titulo">
-        <h1>PRISMA</h1>
+        <h1>ONIX</h1>
            
      </div>
 </header>
@@ -23,25 +23,29 @@
 <main>
     <section class="main-presentacion">
         <div class="presentacion">
+
             <img src="/assets/img/carrito-de-compras.png" alt="">
-            <p>Calcula el Precio de los productos con </p>
+            <div class="texto">
+                <span>Calcula el precio de tus </span>
+                <p> productos con Descuento.</p>
+             </div>
         </div>
     </section>
 
     <section class="main-formulario"> 
-       <form action="">
-           <label for="inputPrecio">Valor del producto</label>
-           <input type="text" id="inputPrecio" >
-           <label for="inputDescuento">Descuento</label>
-           <input type="text" id="inputDescuento">
+       <form action="" class="formulario">
+           <label for="inputPrecio">Escribe el Precio de tu Producto:</label>
+           <input type="text" class="inputpre" id="inputPrecio" placeholder="Precio" >
+           <label for="inputDescuento">Escribe el Porcentaje de Descuento:</label>
+           <input type="text" id="inputDescuento" placeholder="Descuento">
 
            <button type="button"  onclick="calcularDescuento()">Calcular</button>
        </form>
 
     </section>
 
-    <section class="main-tarjeta">
-        <div>
+    <section class="main-resultado">
+        <div class="resultado">
             <p id="ResultadoPrecio">
                $00.0
             </p>
