@@ -1,0 +1,174 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html{
+    font-size: 62.5%;
+}
+.header{
+    display: flex;
+   
+    align-items: center;
+    width: 100%;
+    height: 80px;
+    
+    background-image: linear-gradient(to right top, #5a9943, #00896a, #007290, #00569c, #183081);
+    border-bottom: 0.01rem solid white;
+}
+.header-logo img{
+    margin-left: 100px;
+    object-fit: contain;
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+.header-titulo{
+    margin-left: 10px;
+    color: white;
+    letter-spacing: 0.3rem;
+    
+}
+main{
+   padding-top: 20px;
+  
+    width: 100%;
+    height:90vh;
+   
+    background-image: linear-gradient(to right top, #5a9943, #00896a, #007290, #00569c, #183081);
+   
+}
+
+/* //presentacion */
+.main-presentacion{
+    width: 90%;
+    margin: 0 auto;
+    border-top: 2px solid  white;
+    border-left: 2px solid  white;
+    border-right: 2px solid  white;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+
+    
+}
+.presentacion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 20px;
+    /* background-color: #00896a; */
+}
+.presentacion img{
+    object-fit: contain;
+    width: 60px;
+    height: 70px;
+}
+.texto{ 
+ padding: 0 30px;
+line-height: 20px;
+ padding-top: 20px;
+ padding-bottom: 20px;
+  
+}
+.texto span {
+    font-weight: 800;
+    color: white;
+    font-size: 2rem;
+  
+}
+.texto p{
+   
+    font-weight: 600;
+    margin-left: 10px;
+    color : white;
+    font-size: 1.7rem;
+}
+
+/* formulario */
+.main-formulario{
+ 
+   
+    border-left: 2px solid  white;
+    border-right: 2px solid  white;
+    width: 90%;
+    margin:  0 auto;
+}
+.formulario{
+    padding: 20px 0;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* background-color: #007290; */
+}
+.formulario label { 
+   color: white;
+   font-weight: 500;
+    font-size: 1.6rem;
+    margin-bottom: 8px;
+}
+.formulario input {
+    background-color: transparent;
+    color: white;
+  padding-left: 55px;
+    width: 60%;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px white;
+    margin-bottom: 10px;
+    
+}
+.formulario input::placeholder{
+    color:white;
+    opacity: 0.4;
+}
+/* .formulario input.inputpre{
+    padding-left: 70px;
+} */
+.formulario button{
+    padding: 2px 0;
+    width: 50%;
+    height: 25px;
+    border-radius: 5px;
+    border: solid 1px white;
+    color:  black;
+    font-weight: 500;
+    font-size: 1.3rem;
+    letter-spacing: 0.2rem;
+}
+
+
+/* //Resultado del Descuento */
+.main-resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 90%;
+    margin: 0 auto;
+   padding-bottom: 5px;
+    border-bottom: 2px solid  white;
+    border-left: 2px solid  white;
+    border-right: 2px solid  white;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+    /* background-color: rgb(230, 214, 214); */
+    height: 90px;
+   
+}
+
+
+.resultado{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 120px ;
+    border: solid white 2px;
+    border-radius: 8px;
+  
+}
+.resultado p{
+ color:  white;
+ font-size: 2rem;
+}
+   
