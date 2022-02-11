@@ -1,9 +1,7 @@
+function saludar (){
 
- const saludar = () => { 
-    const saludo = `hola`;
+    const saludo = `holA`;
     console.log(saludo);
-
 }
 
 saludar();
-   
