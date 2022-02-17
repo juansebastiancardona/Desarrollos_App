@@ -22,6 +22,11 @@ const cliente = {
 
 cliente.TipoMembresia.push("oro");
 
+
+
+
+
+
 // prototipo
 function student (cedula , nombre ,edad){
     
