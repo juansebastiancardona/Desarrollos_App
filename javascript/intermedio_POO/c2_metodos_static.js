@@ -28,9 +28,9 @@ const objeto3  = {
     email: "juans@gmail.com"
 }
 
-// esto me muestra una lista de los items clave lo mismo q
-
 Object.entries(objeto3);
-Object.getOwnPropertyDescriptors
 
+
+
+Object.getOwnPropertyDescriptors
 // EL MAS IMPORTANTE ES  Object.getOwnPropertyDescriptors NOS DEVUELVE UN OBJETO
